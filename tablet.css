@@ -1,0 +1,1728 @@
+
+@media(max-width: 768px){
+*{
+  
+    margin: 0px;
+    padding: 0px;
+}
+
+#section1 {
+
+width: 100%;
+height: 100vh;
+background-color: black;
+
+ 
+}
+#section1 .navbar  {
+    width: 100%;
+    height: 60px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(175deg, black 70% , white );
+    }
+     
+#section1 .navbar ul {
+width: 100%;
+height: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ 
+  
+#section1 .navbar ul li {
+    width: auto;
+    height: 20px;
+    float: left;
+    padding-left: 90px;
+      padding: 10px;
+      padding-top: 20px;
+      list-style: none;
+    
+    }
+    #section1 .navbar ul li a{
+         color: #AC74D2;
+          font-weight: bold;
+         font-size: 15px;
+         cursor: pointer;
+          text-decoration: none;
+        }
+
+#section1 .navbar ul  .name  {
+    width: auto;
+    height: auto;
+    font-size: 23px;
+    color: aqua;
+  
+
+}
+#section1 .navbar .butt .b1 {
+   color: #007BFF;
+   float:right ;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 7px;
+      margin: 12px;
+      margin-top: -3px;
+      padding-left: 10px;
+      padding-right: 10px;
+     font-size: 18px;
+    border: 1.5px 
+    #007BFF solid;
+    background-color: transparent;
+border-radius: 5px;
+transition:   1s;
+ 
+cursor: pointer;
+
+
+    
+    }
+#section1 .navbar .butt .b2 {
+        color:#28A745;
+        float:right ;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           padding: 7px ;
+           padding: auto;
+           padding-left: 10px;
+           padding-right: 10px;
+
+           margin: 12px;
+           margin-top: -3px;
+           font-size: 18px;
+          border: 1.5px 
+          #28A745 solid;
+         background-color: transparent;
+         border-radius: 5px;
+         margin-right: 30px;
+         transition:   1s;
+         cursor: pointer;
+         }
+
+#section1 .navbar .butt .b2:hover{
+color: white;
+background-color: #28A745;
+ 
+
+
+}
+#section1 .navbar .butt .b1:hover{
+    color: white;
+    background-color: #007BFF ;
+     
+    
+    
+    }
+    /*----------------------end of navbar----------------------------------*/
+#section1 .background{
+width: 100%;
+height: 88vh;
+position: relative;
+text-align: center;
+color: white;
+
+}
+#section1 .background .img1{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+
+    }
+    #section1 .background .img1 img{
+        width: 100%;
+        height: 100%;
+         
+        animation-name: background1;
+        animation-duration:10s;  
+        animation-iteration-count: 11;
+    
+        }
+         
+        #section1 .background .img2{
+            width: 90%;
+            height: 90%;
+            position: absolute;
+          
+             
+            
+            }
+            #section1 .background .img2 img{
+                width: 100%;
+            height: 100%;
+            animation-name: background1;
+            animation-duration: 15s;  
+            animation-iteration-count: 11;
+         
+    
+            
+             
+                }
+                #section1 .background .img3{
+                    width: 90%;
+                    height: 90%;
+                    position: absolute;
+                  
+                     
+                    
+                    }
+                   #section1 .background .img3 img{
+                    width: 100%;
+                    height: 100%;
+                    animation-name: background1;
+                    animation-duration: 20s;  
+                    animation-iteration-count: 11;
+                    
+            
+                    
+                     
+                        }
+            
+        
+ 
+
+    #section1 .background .img1 .wordsonbackground{
+
+  color: white;
+  position: relative;
+  top: -120px;
+  animation-name: background1;
+  animation-duration:10s;  
+  animation-iteration-count: 11;
+  font-size: 20px;
+ }
+ #section1 .background .img2 .wordsonbackground{
+
+    color: white;
+    position: relative;
+    top: -120px;
+    animation-name: background1;
+    animation-duration: 15s;  
+    animation-iteration-count: 11;
+    font-size: 20px;
+   }
+   #section1 .background .img3 .wordsonbackground{
+
+    color: white;
+    position: relative;
+    top: -120px;
+    animation-name: background1;
+    animation-duration: 20s;  
+    animation-iteration-count: 11;
+    font-size: 20px;
+    
+
+   }
+   @keyframes background1{
+    50%{
+
+transform: translatex(3000px);
+
+    }
+  
+}
+    /*----------------end of section 1------------------*/
+    #section2{
+        width: 100%;
+        height: 1500px;
+        background-color: black;
+        text-align: center;
+        
+        position: relative;
+        text-align: center;
+
+        
+        
+            }
+            #section2 .header{
+            
+         font-size: 45px;
+         text-align: center;
+         color:#AC74D2 ;
+         padding-top: 10px;
+         font-weight: bold;
+                
+        }
+                   
+        #section2 .taht_el_header{
+        width: 60%;
+        height: 0.5%;
+        border-radius: 70%;
+            margin: auto;
+            margin-top: 6px;
+        background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+        
+                    }
+                    #section2 .el5otot1{
+        
+                        position: absolute;
+                      width: 300px;
+                        border-top: 3px dashed #AC74D2;
+                        top: 90px;   
+        
+                       left: 30%;
+                       
+                    }
+                    #section2 .el5otot2{
+        
+                        position: absolute;
+                      width:  230px;
+                        border-top: 3px dashed #AC74D2;
+                       top: 110px;   
+                       left: 36%;
+                       
+                    }
+                    #section2 .nesr{
+        width: 100%;
+        height:40%;
+        position: absolute;
+        top: 100px;
+        
+                    }
+                    #section2 .nesr img{
+        
+                        width: 100%;
+                        height: 100%;
+                        
+                        
+        
+                    }
+                    #section2 .section2_header_pargraph h1{
+        position: absolute;
+        left:32%;
+        bottom: 50%;
+        color: #AC74D2;
+        font-size: 44px;
+        
+                    }
+                    #section2 .section2_header_pargraph p{
+                        position: absolute;
+                        left:2%;
+                        
+                        bottom: 42%;
+                        color: white;
+                        font-size: 20px;
+                        padding: 10px;
+                        font-display: none;
+                         font-weight: bold;
+                        
+                                    }
+                                
+                               #section2 .section2_header_pargraph .h2{
+        
+                                    position: absolute;
+                                    left:32%;
+                                    bottom: 36%;
+                                    color: #AC74D2;
+                                    font-size: 44px;
+                                    
+        
+        
+                                }
+                                #section2 .section2_header_pargraph   .p2{
+        
+                                    position: absolute;
+                                    left:2%;
+                                    
+                                    bottom: 28%;
+                                    color: white;
+                                    font-size: 20px;
+                                    padding: 10px;
+                                    font-display: none;
+                                     font-weight: bold;
+        
+                                }
+                                #section2 .section2_header_pargraph .h3{
+        
+                                    position: absolute;
+                                    left:32%;
+                                    bottom: 23%;
+                                    color: #AC74D2;
+                                    font-size: 44px;
+                                    
+                                }
+                                #section2 .section2_header_pargraph   .p3{
+        
+                                  
+                                    position: absolute;
+                                    left:2%;
+                                    
+                                    bottom: 15%;
+                                    color: white;
+                                    font-size: 20px;
+                                    padding: 10px;
+                                    font-display: none;
+                                     font-weight: bold;
+        
+        
+                                }
+        
+                         
+                                
+          /*----------------end of section 2------------------*/
+          #section3{
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            
+            margin: auto;
+            margin-top: auto;
+            position: relative;
+            text-align: center;
+    
+            
+            
+                }
+                #section3 .header{
+                
+             font-size: 45px;
+             text-align: center;
+             color:#AC74D2 ;
+             padding-top: 10px;
+             font-weight: bold;
+                    
+            }
+                       
+            #section3 .taht_el_header{
+            width: 60%;
+            height: 0.5%;
+            border-radius: 70%;
+                margin: auto;
+                margin-top: 6px;
+            background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+            
+                        }
+                        #section3 .el5otot1{
+            
+                            position: absolute;
+                          width: 300px;
+                            border-top: 3px dashed #AC74D2;
+                            top: 90px;   
+            
+                           left: 30%;
+                           
+                        }
+                        #section3 .el5otot2{
+            
+                            position: absolute;
+                          width:  230px;
+                            border-top: 3px dashed #AC74D2;
+                           top: 110px;   
+                           left: 36%;
+                           
+                        }
+                       
+                                        #section3 .section3_button1{
+                                             color:black;
+                                               border: 1.5px  #00CED1 solid;
+                                             background-color: #00CED1;
+                        
+                        position: relative;
+                        font-size: 18px;
+                        top: 55px;
+                        left: 1%;
+                        width: 100px;
+                        margin-left: -60px;
+                        padding: 10px;
+                        border-radius: 25px;
+                                             cursor: pointer;
+                        
+                                        }
+                                        #section3 .section3_button2{
+                                            color:black;
+                                              border: 1.5px #DA55F8 solid;
+                                            background-color: #DA55F8;
+                        
+                        position: relative;
+                        font-size: 18px;
+                        top: 55px;
+                        width: 100px;
+                        margin: auto;
+                        left: 2%;
+                        padding: 10px;
+                        border-radius: 25px;
+                                            cursor: pointer;
+                        
+                                       }
+                                       #section3 .section3_button2:hover{
+                                        border: 2px white solid;
+                                        
+                                        
+                                           }
+                                       #section3 .section3_button3{
+                                        color:black;
+                                        border: 1.5px #DA55F8 solid;
+                                        border-left: 30px;
+                                        width: 100px;
+                                         
+                        
+                                        background-color: #DA55F8;
+                        
+                        position: relative;
+                        font-size: 15px;
+                        top: 55px;
+                        left: 3%;
+                        padding: 13px;
+                        border-radius: 20px;
+                                        cursor: pointer;
+                                   }
+                                   #section3 .section3_button3:hover{
+                                    border: 2px white solid;
+                                    
+                                    
+                                       }
+                                   #section3  .line_under_buttons_in_section3{
+                                    width: 70%;
+                                    height: 0.1%;
+                                         margin: auto;
+                                        position: relative;
+                                        top: 58px;
+                                    background-image: linear-gradient(150deg , white , rgb(255, 254, 254) , white);
+                        
+                                   }
+                                   #section3  .continer_for_img {
+                                 
+                                width: 60%;
+                                height: 20%;
+                                     position: relative;
+                                      padding: 20px;
+                                          
+                                      display: flex;
+                                flex-wrap : wrap;
+                                
+                                right: 60%;
+                                position: absolute;
+                                
+                                     }
+                               
+                                   #section3  .continer_for_img .gallary_pic{
+                                    width: 50%;
+                                    height:100%;
+                                            
+                                    justify-content: space-between;
+
+                                     display: block;
+                                
+                                     
+                                   }
+                                   #section3 .continer_for_img .gallary_pic img{
+                                    width: 100%;
+                                    height: 100%;
+                                 
+                        justify-content: space-between;
+
+                                   }
+                                     /*----------------end of section 3------------------*/
+                                     #section4{
+                                        width: 100%;
+                                        height: 115vh;
+                                        background-color: black;
+                                        
+                                        margin: auto;
+                                        margin-top: auto;
+                                        position: relative;
+                                        text-align: center;
+                                
+                                        
+                                        
+                                            }
+                                            #section4 .header{
+                                            
+                                         font-size: 45px;
+                                         text-align: center;
+                                         color:#AC74D2 ;
+                                         padding-top: 10px;
+                                         font-weight: bold;
+                                                
+                                        }
+                                                   
+                                        #section4 .taht_el_header{
+                                        width: 60%;
+                                        height: 0.5%;
+                                        border-radius: 70%;
+                                            margin: auto;
+                                            margin-top: 6px;
+                                        background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+                                        
+                                                    }
+                                                    #section4 .el5otot1{
+                                        
+                                                        position: absolute;
+                                                      width: 300px;
+                                                        border-top: 3px dashed #AC74D2;
+                                                        top: 90px;   
+                                        
+                                                       left: 30%;
+                                                       
+                                                    }
+                                                    #section4 .el5otot2{
+                                        
+                                                        position: absolute;
+                                                      width:  230px;
+                                                        border-top: 3px dashed #AC74D2;
+                                                       top: 110px;   
+                                                       left: 36%;
+                                                       
+                                                    }
+                                                    #section4 .theform  {
+                                                        width: 50%;
+                                                        height: 100%;
+                                                        position: relative;
+                                                        
+                                                                                }
+                                                                                #section4 .theform h1{
+                                                            position: absolute;
+                                                                                    font-size: 30px;
+                                                                                    text-align: center;
+                                                                                    top: 50px;
+                                                                                     float: left;
+                                                                                    color:#AC74D2 ;
+                                                                                    font-weight: bold;
+                                                                                           margin-left:190px;
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .email{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 120px;
+                                                                                    left: 50%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .password{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 120px;
+                                                                                    left: 120%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input1{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 150px;
+                                                                                   left: 5px;
+                                                                                 border: 5px solid white;
+                                                                                 border-right: 100px white solid;
+                                                                                 font-size: 19px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input2{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 150px;
+                                                                                   left: 350px;
+                                                                                 border: 5px solid white;
+                                                                                 border-right: 140px white solid;
+                                                        
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                                                font-size: 19px;
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .Address{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 195px;
+                                                                                    left: 90%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input3{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 220px;
+                                                                                    left: 0%;
+                                                                                 border: 5px solid white;
+                                                                                 border-right: 510px white solid;
+                                                        font-size: 19px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .Address2{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 270px;
+                                                                                    left: 90%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input4{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 300px;
+                                                                                    left: 0%;
+                                                                                 border: 5px solid white;
+                                                                                 border-right: 510px white solid;
+                                                        font-size: 19px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                        overflow: hidden;
+                                                        
+                                                                                   }
+                                                                                   
+                                                                                   
+                                                                                   #section4 .theform   form .email_password .City{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 355px;
+                                                                                    left: 50%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input5{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 390px;
+                                                                                    left: 0%;
+                                                                                 border: 5px solid white;
+                                                                                 border-right: 100px white solid;
+                                                        font-size: 19px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .Zip{
+                                                                                  
+                                                                                    position: absolute;
+                                                                                    top: 355px;
+                                                                                    left: 100%;
+                                                                                    font-size: 20px;
+                                                                                    font-weight: bold;
+                                                        color: #AC74D2 ;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password .input6{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top: 390px;
+                                                                                    left: 90%;
+                                                                                 border: 5px solid white;
+                                                                                 border-right:  -px white solid;
+                                                        font-size: 19px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                        
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password button{
+                                                        
+                                                                                    position: absolute;
+                                                                                    top:  450px;
+                                                                                 width: 200%;
+                                                                                 left: -0px;
+                                                                                 
+
+                                                                                 
+                                                                                 font-size: 22px;
+                                                                                line-height: 1.5;
+                                                                                border-radius: 10px;
+                                                                                color: white;
+                                                                                background-color: #007BFF ;
+                                                                                transition: 0.5s;
+                                                        cursor: pointer;
+                                                        
+                                                                                   }
+                                                                                   #section4 .theform   form .email_password button:hover{
+                                                        background-color: #03366d;
+                                                                                   }
+                                                                                   
+                                                                                   #section4 .theform  form .email_password .maps iframe{
+
+
+                                                                                    width:200%;
+                                                                                    height: 20% ;
+                                                                                     position: absolute;
+                                                                                    left:0px ;
+
+                                                                                     margin: auto;
+                                                                                    bottom: 11%;
+                                                                                    display: inline- block; 
+                                                                                     
+                                                                                  
+                                                                                  }
+                                                                                
+                                                                                  #section5{
+                                                                                    width: 100%;
+                                                                                    height: 80vh;
+                                                                                     
+                                                                                     
+                                                                                     background-color: black;
+                                                                                     position: relative;
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                                               }
+                                                                                                               #section5 .left h1{
+                                                                                    position:absolute;
+                                                                                    font-size: 40px;
+                                                                                    left: 1%;
+                                                                                    color: #808080;
+                                                                                    
+                                                                                                               }
+                                                                                                               #section5 .left p{
+                                                                                                                width: 90%;
+                                                                                                                position:absolute;
+                                                                                                                font-size: 18px;
+                                                                                                                left: 1%;
+                                                                                                                
+                                                                                                                color: #808080;
+                                                                                                                 top: 10%;
+                                                                                                                 
+                                                                                                               }
+                                                                                                                          #section5 .left .middle h1{
+                                                                                                                 position:absolute;
+                                                                                                                   font-size: 40px;
+                                                                                                                  top: 33%;
+                                                                                                                  left: 1%;
+                                                  
+                                                                                                                               
+                                                                                                          color: #808080;
+                                                                                                                                            
+                                                                                                                     }
+                                                                                                                     #section5 .left .middle ul {
+                                                                                                                      position:absolute;
+                                                                                                                      
+                                                                                                      font-size: 18px;
+                                                                                                      top: 42%;
+                                                                                                      left: 4%;
+                                                                                                       color: #808080;
+                                                                                                 
+                                                                                            
+                                                                                                                                                          }
+                                                                                                     #section5 .left .right h1{
+                                                                                                         position:absolute;
+                                                                                                                  font-size: 40px;
+                                                                                                                                                             
+                                                                                                                             left: 70%;
+                                                                                                                  color: #808080;
+                                                                                                                  top: 33%;
+                                                                                                                  left: 45%;
+                                                                                                                                                                                       
+                                                                                                                           }
+                                                                                                             #section5 .left .right ul {
+                                                                                                                                   position:absolute;
+                                                                                                                                                                 
+                                                                                                                    font-size: 18px;
+                                                                                                                  left: 48%;
+                                                                                                                         color: #808080;
+                                                                                                                         cursor: pointer;
+                                                                                                                      
+                                                                                     
+                                                                                                                  top: 42%;                    }
+                                                                                                                           #section5 .left .right ul   a{
+                                                                                                                          text-decoration: none;
+                                                                                                                           color: #808080;
+                                                                                                                           display: inline-block;
+                                                                                                                                         }
+                                                                                                                                       #section5 .taht_el_header{
+                                                                                                                                          width: 99%;
+                                                                                                  height: 1.2%;
+                                                                                               border-radius: 70%;
+                                                                                          margin: auto;
+                                                                                                position: absolute;
+                                                                                        bottom: 25px;
+                                                                                    
+                                                                                       background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+                                                                                                          }    
+                                                                                     #section5 .lastthing {
+                                                                                      
+                                                                                    width: 100%;
+                                                                                    height: 100%;
+                                                                                    display:  inline-block;
+                                                                                    color: #808080;
+                                                                                     
+                                                                                    background-image: url('../project1/images/last.png') ;
+                                                                                    background-repeat: no-repeat;
+                                                                                    background-size: 25% 9%;
+                                                                                    background-position: 450px 450px ;
+                                                                                    
+                                                                                     }
+                                                                                     #section5 .lastthing h3 {
+                                                                                      font-size: 18px;
+                                                                                      position: absolute;
+                                                                                      color: #808080;
+                                                                                      bottom: 120px;
+                                                                                      left : 3%
+                                                                                
+                                                                                    
+                                                                                    }
+                                                                                  
+                                                                                  
+        /*______________--------------------------------------------------------------------------------------------------mobileeeeee************************/
+                                                                                  
+        @media(max-width:600px){
+          
+ 
+  *{
+    
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  #section1 {
+  
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  
+   
+  }
+  #section1 .navbar  {
+      width: 100%;
+      height: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-image: linear-gradient(175deg, black 70% , white );
+      }
+       
+  #section1 .navbar ul {
+  width: 100%;
+  height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+   
+    
+  #section1 .navbar ul li {
+      width: auto;
+      height: 20px;
+      float: left;
+      padding-left: px;
+        padding-top: 20px;
+        list-style: none;
+      
+      }
+      #section1 .navbar ul li a{
+           color: #AC74D2;
+            font-weight: bold;
+           font-size: 15px;
+           cursor: pointer;
+            text-decoration: none;
+          }
+  
+  #section1 .navbar ul  .name  {
+      width: 2%;
+      height: auto;
+      font-size: 15px;
+      position: absolute;
+      top: -2%;
+      color: aqua;
+    
+  
+  }
+  #section1 .navbar .butt .b1 {
+     color: #007BFF;
+     float:right ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         position: absolute;
+
+       font-size: 10px;
+      border: 0.2px 
+      #007BFF solid;
+      background-color: transparent;
+  border-radius: 5px;
+  transition:   1s;
+   
+  cursor: pointer;
+  
+  
+      
+      }
+  #section1 .navbar .butt .b2 {
+          color:#28A745;
+          float:right ;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          
+       font-size: 10px;
+       position: absolute;
+       top: 6%;
+       right: 5%;
+       border: 0.2px 
+       green solid;
+       background-color: transparent;
+   border-radius: 5px;
+   transition:   1s;
+           }
+  
+  #section1 .navbar .butt .b2:hover{
+  color: white;
+  background-color: #28A745;
+   
+  
+  
+  }
+  #section1 .navbar .butt .b1:hover{
+      color: white;
+      background-color: #007BFF ;
+       
+      
+      
+      }
+      /*----------------------end of navbar----------------------------------*/
+  #section1 .background{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  text-align: center;
+  color: white;
+  
+  }
+  #section1 .background .img1{
+      width: 90%;
+      height: 90%;
+      position: absolute;
+  
+      }
+      #section1 .background .img1 img{
+          width: 100%;
+          height: 100%;
+           
+          animation-name: background1;
+          animation-duration:10s;  
+          animation-iteration-count: 11;
+      
+          }
+           
+          #section1 .background .img2{
+              width: 100%;
+              height: 100%;
+              position: absolute;
+            
+               
+              
+              }
+              #section1 .background .img2 img{
+                  width: 100%;
+              height: 100%;
+              animation-name: background1;
+              animation-duration: 15s;  
+              animation-iteration-count: 11;
+           
+      
+              
+               
+                  }
+                  #section1 .background .img3{
+                      width: 100%;
+                      height: 100%;
+                      position: absolute;
+                    
+                       
+                      
+                      }
+                     #section1 .background .img3 img{
+                      width: 100%;
+                      height: 100%;
+                      animation-name: background1;
+                      animation-duration: 20s;  
+                      animation-iteration-count: 11;
+                      
+              
+                      
+                       
+                          }
+              
+          
+   
+  
+      #section1 .background .img1 .wordsonbackground{
+  
+    color: white;
+    position: relative;
+    top: -120px;
+    animation-name: background1;
+    animation-duration:10s;  
+    animation-iteration-count: 11;
+    font-size: 20px;
+   }
+   #section1 .background .img2 .wordsonbackground{
+  
+      color: white;
+      position: relative;
+      top: -120px;
+      animation-name: background1;
+      animation-duration: 15s;  
+      animation-iteration-count: 11;
+      font-size: 20px;
+     }
+     #section1 .background .img3 .wordsonbackground{
+  
+      color: white;
+      position: relative;
+      top: -120px;
+      animation-name: background1;
+      animation-duration: 20s;  
+      animation-iteration-count: 11;
+      font-size: 20px;
+      
+  
+     }
+     @keyframes background1{
+      50%{
+  
+  transform: translatex(3000px);
+  
+      }
+    
+  }
+      /*----------------end of section 1------------------*/
+      #section2{
+          width: 100%;
+          height: 1500px;
+          background-color: black;
+          text-align: center;
+          
+          position: relative;
+          text-align: center;
+  
+          
+          
+              }
+              #section2 .header{
+              
+           font-size: 45px;
+           text-align: center;
+           color:#AC74D2 ;
+           padding-top: 10px;
+           font-weight: bold;
+                  
+          }
+                     
+          #section2 .taht_el_header{
+          width: 60%;
+          height: 0.2%;
+          border-radius: 70%;
+              margin: auto;
+              margin-top: 6px;
+          background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+          
+                      }
+                      #section2 .el5otot1{
+          
+                          position: absolute;
+                        width: 150px;
+                          border-top: 3px dashed #AC74D2;
+                          top: 80px;   
+          
+                         left: 30%;
+                         
+                      }
+                      #section2 .el5otot2{
+          
+                          position: absolute;
+                        width:  100px;
+                          border-top: 3px dashed #AC74D2;
+                         top: 90px;   
+                         left: 36%;
+                         
+                      }
+                      #section2 .nesr{
+          width: 100%;
+          height:40%;
+          position: absolute;
+          top: 100px;
+          
+                      }
+                      #section2 .nesr img{
+          
+                          width: 100%;
+                          height: 100%;
+                          
+                          
+          
+                      }
+                      #section2 .section2_header_pargraph h1{
+          position: absolute;
+          left:25%;
+          bottom: 52%;
+          color: #AC74D2;
+          font-size: 44px;
+          
+                      }
+                      #section2 .section2_header_pargraph p{
+                          position: absolute;
+                          left:2%;
+                          
+                          bottom: 42%;
+                          color: white;
+                          font-size: 20px;
+                          padding: 10px;
+                          font-display: none;
+                           font-weight: bold;
+                          
+                                      }
+                                  
+                                 #section2 .section2_header_pargraph .h2{
+          
+                                      position: absolute;
+                                      left:25%;
+                                      bottom: 37%;
+                                      color: #AC74D2;
+                                      font-size: 44px;
+                                      
+          
+          
+                                  }
+                                  #section2 .section2_header_pargraph   .p2{
+          
+                                      position: absolute;
+                                      left:2%;
+                                      
+                                      bottom: 27%;
+                                      color: white;
+                                      font-size: 20px;
+                                      padding: 10px;
+                                      font-display: none;
+                                       font-weight: bold;
+          
+                                  }
+                                  #section2 .section2_header_pargraph .h3{
+          
+                                      position: absolute;
+                                      left:25%;
+                                      bottom: 23%;
+                                      color: #AC74D2;
+                                      font-size: 44px;
+                                      
+                                  }
+                                  #section2 .section2_header_pargraph   .p3{
+          
+                                    
+                                      position: absolute;
+                                      left:2%;
+                                      
+                                      bottom: 12%;
+                                      color: white;
+                                      font-size: 20px;
+                                      padding: 10px;
+                                      font-display: none;
+                                       font-weight: bold;
+          
+          
+                                  }
+          
+                           
+                                  
+            /*----------------end of section 2------------------*/
+            #section3{
+              width: 100%;
+              height: 200vh;
+              background-color: black;
+              
+              margin: auto;
+              margin-top: auto;
+              position: relative;
+              text-align: center;
+              justify-content: space-between;
+              
+              
+                  }
+                  #section3 .taht_el_header{
+                    width: 60%;
+                    height: 0.2%;
+                    border-radius: 70%;
+                        margin: auto;
+                        margin-top: 6px;
+                    background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+                    
+                                }
+                                #section3 .el5otot1{
+                    
+                                    position: absolute;
+                                  width: 150px;
+                                    border-top: 3px dashed #AC74D2;
+                                    top: 80px;   
+                    
+                                   left: 30%;
+                                   
+                                }
+                                #section3 .el5otot2{
+                    
+                                    position: absolute;
+                                  width:  100px;
+                                    border-top: 3px dashed #AC74D2;
+                                   top: 90px;   
+                                   left: 36%;
+                                   
+                                }
+                                          #section3 .section3_button1{
+                                               color:black;
+                                                 border: 0.5px  #00CED1 solid;
+                                               background-color: #00CED1;
+                          
+                          position: relative;
+                          font-size: 13px;
+                          top: 55px;
+                          left: 1%;
+                          width: 100px;
+                          margin-left: -60px;
+                          padding: 10px;
+                          border-radius: 25px;
+                                               cursor: pointer;
+                          
+                                          }
+                                          #section3 .section3_button2{
+                                              color:black;
+                                                border: 1.5px #DA55F8 solid;
+                                              background-color: #DA55F8;
+                          
+                          position: relative;
+                          font-size: 13px;
+                          top: 55px;
+                          width: 100px;
+                          margin: auto;
+                          left: 5%;
+                          padding: 10px;
+                          border-radius: 25px;
+                                              cursor: pointer;
+                          
+                                         }
+                                         #section3 .section3_button2:hover{
+                                          border: 2px white solid;
+                                          
+                                          
+                                             }
+                                         #section3 .section3_button3{
+                                          color:black;
+                                          border: 1.5px #DA55F8 solid;
+                                          border-left: 30px;
+                                          width: 100px;
+                                           
+                          
+                                          background-color: #DA55F8;
+                          
+                          position: relative;
+                          font-size: 9px;
+                          top: 55px;
+                          left: 9%;
+                          padding: 13px;
+                          border-radius: 20px;
+                                          cursor: pointer;
+                                     }
+                                     #section3 .section3_button3:hover{
+                                      border: 2px white solid;
+                                      
+                                      
+                                         }
+                                     #section3  .line_under_buttons_in_section3{
+                                      width: 99%;
+                                      height: 0.1%;
+                                           margin: auto;
+                                          position: relative;
+                                          top: 60px;
+                                      background-image: linear-gradient(150deg , white , rgb(255, 254, 254) , white);
+                          
+                                     }
+                                     #section3  .continer_for_img {
+                                   
+                                  width: 62%;
+                                  height: 10.5%;
+                                       position: relative;
+                                        padding: 20px;
+                                            
+                                        display: flex;
+                                  flex-wrap : wrap;
+                                  
+                                  right: 60%;
+                                  position: absolute;
+                                  justify-content: space-between;
+                                       }
+                                 
+                                     #section3  .continer_for_img .gallary_pic{
+                                      width: 100%;
+                                      height:100%;
+                                              border: 20px black solid;
+   
+                                       display: block;
+                                       justify-content: space-between;
+                                       
+                                     }
+                                     #section3 .continer_for_img .gallary_pic img{
+                                      width: 100%;
+                                      height: 100%;
+                                   
+                          
+  
+                                     }
+                                       /*----------------end of section 3------------------*/
+                                       #section4{
+                                          width: 100%;
+                                          height: 180vh;
+                                          background-color: black;
+                                          
+                                          margin: auto;
+                                          margin-top: auto;
+                                          position: relative;
+                                          text-align: center;
+                                  
+                                          
+                                          
+                                              }
+                                              #section4 .taht_el_header{
+                                                width: 60%;
+                                                height: 0.2%;
+                                                border-radius: 70%;
+                                                    margin: auto;
+                                                    margin-top: 6px;
+                                                background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+                                                
+                                                            }
+                                                            #section4 .el5otot1{
+                                                
+                                                                position: absolute;
+                                                              width: 150px;
+                                                                border-top: 3px dashed #AC74D2;
+                                                                top: 80px;   
+                                                
+                                                               left: 30%;
+                                                               
+                                                            }
+                                                            #section4 .el5otot2{
+                                                
+                                                                position: absolute;
+                                                              width:  100px;
+                                                                border-top: 3px dashed #AC74D2;
+                                                               top: 90px;   
+                                                               left: 36%;
+                                                               
+                                                            }
+                                                      #section4 .theform  {
+                                                          width: 50%;
+                                                          height: 100%;
+                                                          position: relative;
+                                                          
+                                                                                  }
+                                                                                  #section4 .theform h1{
+                                                              position: absolute;
+                                                                                      font-size: 30px;
+                                                                                      text-align: center;
+                                                                                      top: 40px;
+                                                                                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                                                                       float: left;
+                                                                                      color:#AC74D2 ;
+                                                                                      font-weight: bold;
+                                                                                             margin-left:80px;
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .email{
+                                                                                    
+                                                                                      position: absolute;
+                                                                                      top: 120px;
+                                                                                      left: 85%;
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .password{
+                                                                                    
+                                                                                      position: absolute;
+                                                                                      top: 200px;
+                                                                                      left: 82%;
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input1{
+                                                          
+                                                                                      position: absolute;
+                                                                                      top: 150px;
+                                                                                     left: 5px;
+                                                                                   border: 5px solid white;
+                                                                                   border-right: 170px white solid;
+                                                                                   font-size: 19px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input2{
+                                                          
+                                                                                      position: absolute;
+                                                                                      top: 225px;
+                                                                                     left: 5px;
+                                                                                   
+                                                                                   border: 5px solid white;
+                                                                                   border-right: 170px white solid;
+                                                          
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                                                  font-size: 19px;
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .Address{
+                                                                                    
+                                                                                      position: absolute;
+                                                                                      top: 23%;
+                                                                                      left: 85%;
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input3{
+                                                          
+                                                                                      position: absolute;
+                                                                                      top: 306px;
+                                                                                      left: 0%;
+                                                                                      
+                                                                                      border: 5px solid white;
+                                                                                      border-right: 170px white solid;
+                                                          font-size: 19px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .Address2{
+                                                                                    
+                                                                                      position: absolute;
+                                                                                      top: 350px;
+                                                                                      left: 85%;
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input4{
+                                                          
+                                                                                      position: absolute;
+                                                                                      top: 400px;
+                                                                                      left: 0%;
+                                                                                      border: 5px solid white;
+                                                                                      border-right: 170px white solid;
+                                                          font-size: 19px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                          overflow: hidden;
+                                                          
+                                                                                     }
+                                                                                     
+                                                                                     
+                                                                                     #section4 .theform   form .email_password .City{
+                                                                                    
+                                                                                      position: absolute;
+                                                                                      top: 450px ;
+                                                                                      left: 90%;
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input5{
+                                                          
+                                                                                      position: absolute;
+                                                                                      top: 480px ;
+                                                                                      left: 0%;
+                                                                                      border: 5px solid white;
+                                                                                      border-right: 170px white solid;
+                                                          font-size: 19px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .Zip{
+                                                                                      top: 530px ;
+                                                                                      left: 90%;
+                                                                                      position: absolute;
+                                                                                   
+                                                                                      font-size: 20px;
+                                                                                      font-weight: bold;
+                                                          color: #AC74D2 ;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password .input6{
+                                                                                      top: 560px ;
+                                                                                      position: absolute;
+                                                                                      border: 5px solid white;
+                                                                                      border-right: 170px white solid;
+                                                                                      
+                                                                             left: 0px;
+                                                          font-size: 19px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                          
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password button{
+                                                           top:650px ;
+                                                                                      position: absolute;
+                                                                                      
+                                                                                   width: 200%;
+                                                                                   left: -0px;
+                                                                                   
+  
+                                                                                   
+                                                                                   font-size: 22px;
+                                                                                  line-height: 1.5;
+                                                                                  border-radius: 10px;
+                                                                                  color: white;
+                                                                                  background-color: #007BFF ;
+                                                                                  transition: 0.5s;
+                                                          cursor: pointer;
+                                                          
+                                                                                     }
+                                                                                     #section4 .theform   form .email_password button:hover{
+                                                          background-color: #03366d;
+                                                                                     }
+                                                                                     
+                                                                                     #section4 .theform  form .email_password .maps iframe{
+  
+  
+                                                                                      width:200%;
+                                                                                      height: 30% ;
+                                                                                       position: absolute;
+                                                                                      left:0px ;
+  
+                                                                                       margin: auto;
+                                                                                      bottom: 11%;
+                                                                                      display: inline- block; 
+                                                                                       
+                                                                                    
+                                                                                    }
+                                                                                    
+                                                                                    #section5{
+                                                                                      width: 100%;
+                                                                                      height: 120vh;
+                                                                                       
+                                                                                       
+                                                                                       background-color: black;
+                                                                                       position: relative;
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                                                 }
+                                                                                                                 #section5 .left h1{
+                                                                                      position:absolute;
+                                                                                      font-size: 40px;
+                                                                                      left: 1%;
+                                                                                      color: #808080;
+                                                                                      
+                                                                                                                 }
+                                                                                                                 #section5 .left p{
+                                                                                                                  width: 90%;
+                                                                                                                  position:absolute;
+                                                                                                                  font-size: 18px;
+                                                                                                                  left: 1%;
+                                                                                                                  
+                                                                                                                  color: #808080;
+                                                                                                                   top: 10%;
+                                                                                                                   
+                                                                                                                 }
+                                                                                                                            #section5 .left .middle h1{
+                                                                                                                   position:absolute;
+                                                                                                                     font-size: 40px;
+                                                                                                                    top: 33%;
+                                                                                                                    left: 1%;
+                                                    
+                                                                                                                                 
+                                                                                                            color: #808080;
+                                                                                                                                              
+                                                                                                                       }
+                                                                                                                       #section5 .left .middle ul {
+                                                                                                                        position:absolute;
+                                                                                                                        
+                                                                                                        font-size: 18px;
+                                                                                                        top: 42%;
+                                                                                                        left: 6%;
+                                                                                                         color: #808080;
+                                                                                                   
+                                                                                              
+                                                                                                                                                            }
+                                                                                                       #section5 .left .right h1{
+                                                                                                           position:absolute;
+                                                                                                                    font-size: 40px;
+                                                                                                                                                               
+                                                                                                                               left: 5%;
+                                                                                                                    color: #808080;
+                                                                                                                    top: 59%;
+                                                                                                                    left: 2%;
+                                                                                                                                                                                         
+                                                                                                                             }
+                                                                                                               #section5 .left .right ul {
+                                                                                                                                     position:absolute;
+                                                                                                                                                                   
+                                                                                                                      font-size: 18px;
+                                                                                                                    left: 5%;
+                                                                                                                           color: #808080;
+                                                                                                                           cursor: pointer;
+                                                                                                                        
+                                                                                       
+                                                                                                                    top: 65%;                    }
+                                                                                                                             #section5 .left .right ul   a{
+                                                                                                                            text-decoration: none;
+                                                                                                                             color: #808080;
+                                                                                                                             display: inline-block;
+                                                                                                                                                                                                       }
+                                                                                                                                         #section5 .taht_el_header{
+                                                                                                                                            width: 99%;
+                                                                                                    height: 0.6%;
+                                                                                                 border-radius: 70%;
+                                                                                            margin: auto;
+                                                                                                  position: absolute;
+                                                                                          bottom: -35%;
+                                                                                      
+                                                                                         background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+                                                                                                           
+                                                                                                                  
+                                                          
+                                                     
+                                                                                                                                                                                                }
+                                  
+   
+                                 
+                               
+          
+                                                                                                                                                                              
+                                                                                                             #section5 .lastthing {
+                                                                                                                  
+                                                                                                                width: 100%;
+                                                                                                                height: 100%;
+                                                                                                                display:  inline-block;
+                                                                                                                color: #808080;
+                                                                                                                 
+                                                                                                                background-image: url('../project1/images/last.png') ;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                                background-size: 35% 10%;
+                                                                                                                background-position: 250px 700px ;
+
+                                                                                                                
+                                                                                                                 }
+                                                                                                                 #section5 .lastthing h3 {
+                                                                                                                  font-size: 18px;
+                                                                                                                  position: absolute;
+                                                                                                                  color: #808080;
+                                                                                                                  bottom: 100px;
+                                                                                                                   
+                                                                                                            
+                                                                                                                
+                                                                                                                }
+
+                                                                                                              
+                                                                                                              
+                                                
